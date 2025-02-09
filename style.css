@@ -1,0 +1,92 @@
+body{
+    padding: 10px;
+    background: linear-gradient(to right,#faedd8,#e6bc9a);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color:#DCC9AA;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 140px;
+    cursor: pointer;
+}
+.btn{
+    background: linear-gradient(#8A5E3B,#D6A268);
+    color:#fff;
+    font-size: 16px;
+    padding: 16px 30px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.content{
+    margin: 15% auto 0;
+}
+.content h1{
+    font-size: 65px;
+    font-weight: 400;
+    color: #4E342E;
+}
+.content h1 span{
+    font-weight: 700;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+    background: #DCC9AA;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+form input{
+    flex: 1;
+    padding: 20px 30px;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+form .btn{
+    padding: 0;
+    width: 150px;
+    height: 65px;
+    border-radius: 31px;
+}
+form input ::placeholder{
+    font-size: 16px;
+}
+footer{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+    color:#4E342E;
+
+}
+.links a{
+    margin: 10px;
+}
+.links a img{
+    width: 30px;
+}
+nav img{
+    transition: transform 0.3s ease;
+}
+nav img:hover{
+    transform: scale(1.05);
+}
+a,img{
+    transition: transform 0.3s ease;
+}
+a:hover,img:hover{
+    transform: scale(1.1);
+}
